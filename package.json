@@ -9,7 +9,7 @@
     "build": "webpack --config ./webpack.config.js",
     "build-storybook": "build-storybook",
     "lint": "eslint .",
-    "dev": "rm -rf dist; webpack --watch",
+    "dev": "webpack --watch",
     "yalc": "YALC=1 yarn dev",
     "prepublishOnly": "yarn build"
   },
