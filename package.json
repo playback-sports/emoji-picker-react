@@ -1,6 +1,6 @@
 {
-  "name": "emoji-picker-react",
-  "version": "3.4.8",
+  "name": "@playback-sports/emoji-picker-react",
+  "version": "3.4.8-playback.1",
   "description": "Emoji picker component for react applications",
   "main": "dist/index.js",
   "typings": "emoji-picker-react.d.ts",
@@ -10,7 +10,8 @@
     "build-storybook": "build-storybook",
     "lint": "eslint .",
     "dev": "rm -rf dist; webpack --watch",
-    "yalc": "YALC=1 yarn dev"
+    "yalc": "YALC=1 yarn dev",
+    "prepublishOnly": "yarn build"
   },
   "repository": {
     "type": "git",
