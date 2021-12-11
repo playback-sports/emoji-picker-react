@@ -8,7 +8,9 @@
     "storybook": "start-storybook -p 6006",
     "build": "webpack --config ./webpack.config.js",
     "build-storybook": "build-storybook",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dev": "rm -rf dist; webpack --watch",
+    "yalc": "YALC=1 yarn dev"
   },
   "repository": {
     "type": "git",
